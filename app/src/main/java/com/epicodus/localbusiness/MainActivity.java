@@ -11,7 +11,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-    @Bind(R.id.imageButton) Button mFindDrinksButton;
+//    @Bind(R.id.imageButton) Button mFindDrinksButton;
     @Bind(R.id.appNameTextView) TextView mAppNameTextView;
 
     @Override
