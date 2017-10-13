@@ -36,8 +36,26 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1" />
 
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="163dp"
+        android:layout_height="38dp"
+        android:layout_above="@+id/findDrinksButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorTextIcons"
+        android:hint="@string/hint"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/findDrinksButton"
         android:layout_width="50dp"
         android:layout_height="0dp"
         android:layout_marginEnd="58dp"

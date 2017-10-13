@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LocalBusiness</string>
     <string name="local_business">Local Business</string>
+    <string name="hint">Enter Zip Code</string>
 </resources>
