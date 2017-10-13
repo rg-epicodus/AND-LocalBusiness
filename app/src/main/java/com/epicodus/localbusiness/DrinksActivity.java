@@ -26,15 +26,15 @@ public class DrinksActivity extends AppCompatActivity {
         setContentView(R.layout.activity_drinks);
         ButterKnife.bind(this);
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, drinks);
+        ArrayAdapter adapter = new ArrayAdapter(this, R.layout.custom_textwhite, drinks);
         mListView.setAdapter(adapter);
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String drink = ((TextView)view).getText().toString();
+                Log.d("DrinksActivity", "In the onItemClickListener!");
                 Toast.makeText(DrinksActivity.this, drink, Toast.LENGTH_LONG).show();
-                Log.v("DrinksActivity", "In the onItemClickListener!");
             }
         });
 
